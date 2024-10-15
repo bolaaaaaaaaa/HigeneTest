@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="com.example.testss"/> <!-- Replace with your actual test class -->
+        </classes>
+    </test>
+</suite>
+<listeners>
+    <listener class-name="com.example.tests.CustomTestListener"/>
+</listeners>
